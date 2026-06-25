@@ -29,7 +29,6 @@ This is my solution to the Social Links Profile challenge on Frontend Mentor. Th
 ### Links
 
 - Live Site URL: [Add live site URL here]
-- Repository URL: [Add repository URL here]
 
 ## My Process
 
