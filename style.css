@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    max-width: 360px;
+}
+
+.social__card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile__image {
+    border-radius: 50%;
+    width: 100px;
+    align-self: center;
+}
+
+.profile__name {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.profile__bio {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+}
+
+.profile__info {
+    text-align: center;
+    margin: 20px;
+}
+
+.social__card-link {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+}
+
+.social__card-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transform: translateY(-2px);
+}
